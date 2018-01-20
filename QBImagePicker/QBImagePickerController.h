@@ -35,6 +35,8 @@ typedef NS_ENUM(NSUInteger, QBImagePickerMediaType) {
 
 @property (nonatomic, strong, readonly) NSMutableOrderedSet *selectedAssets;
 
+@property (nonatomic, strong, readonly) UINavigationController *albumsNavigationController; // used to add crop vc
+
 @property (nonatomic, copy) NSArray *assetCollectionSubtypes;
 @property (nonatomic, assign) QBImagePickerMediaType mediaType;
 
